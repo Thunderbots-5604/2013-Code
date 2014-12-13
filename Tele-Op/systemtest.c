@@ -167,7 +167,7 @@ task main()
 			motor[Lift2] = 0;
 			if (nNxtButtonPressed == 0)
 				nxtFunction = 0;
-		}-
+		}
 
 		while (nxtFunction == 9){
 			nxtDisplayCenteredTextLine(0, "Bucket");

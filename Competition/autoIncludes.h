@@ -193,7 +193,7 @@ void turn45(bool right){
 	motor[Left2] = power;
 	motor[Right] = -power;
 	motor[Right2] = -power;
-	while ((abs(nMotorEncoder[Left]) + abs(nMotorEncoder[Right]))/2 < 645)
+	while ((abs(nMotorEncoder[Left]) + abs(nMotorEncoder[Right]))/2 < 645) //
 		wait1Msec(1);
 	brake();
 }
